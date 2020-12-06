@@ -54,7 +54,7 @@ func getPart2(target int, values []string) int {
 func main() {
     target := 2020
 
-    filename := "ressources/day1.txt"
+    filename := "resources/day1.txt"
     content, err := ioutil.ReadFile(filename)
     if err != nil {
         fmt.Println("Error")

@@ -36,7 +36,7 @@ func main() {
     countPart1 := 0
     countPart2 := 0
 
-    filename := "ressources/day2.txt"
+    filename := "resources/day2.txt"
     content, err := ioutil.ReadFile(filename)
     if err != nil {
         fmt.Println("Error")
